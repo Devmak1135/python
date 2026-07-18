@@ -3,11 +3,7 @@ name = input("Enter your name: ")
 print("Hello, " + name + "! Welcome to the program.")
 
 
-#Printing the Variables
-subject = "python"
-print(subject)
-
-person = "John"
-verb = "is learning"
-
-print(person + " " + verb + " " + subject + ".")
+#Taking Different type of Inputs
+i = int(input("How old are you?: "))
+f = float(input("Evaluate 7/2: "))
+print(i, f)
