@@ -1,11 +1,11 @@
 a = 10
 b = a
-print(b)
+print(b) # 10
 b += a
-print(b)
+print(b) # 20
 b -= a
-print(b)
-b *= a
-print(b)
+print(b) # 10 
+b *= a 
+print(b) # 100
 b <<= a
-print(b)
+print(b) # 102400
